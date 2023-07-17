@@ -38,3 +38,6 @@ And I just wanna be with you
 Right here with you, just like this
 And I just wanna hold you close
 I feel your heart so close to mine
+And just stay here in this moment
+For all the rest of time
+Yeah, yeah, yeah, yeah, yeah
