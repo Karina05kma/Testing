@@ -51,3 +51,6 @@ The sweetest dream would never do
 I'd still miss you baby
 And I don't wanna miss a thing
 
+I don't wanna close my eyes
+I don't wanna fall asleep
+'Cause I'd miss you baby
