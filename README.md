@@ -35,3 +35,6 @@ And I don't wanna miss a thing
 I don't wanna miss one smile
 And I don't wanna miss one kiss
 And I just wanna be with you
+Right here with you, just like this
+And I just wanna hold you close
+I feel your heart so close to mine
