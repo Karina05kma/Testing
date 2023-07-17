@@ -41,3 +41,7 @@ I feel your heart so close to mine
 And just stay here in this moment
 For all the rest of time
 Yeah, yeah, yeah, yeah, yeah
+
+Don't wanna close my eyes
+Don't wanna fall asleep
+'Cause I'd miss you baby
