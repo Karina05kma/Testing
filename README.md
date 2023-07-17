@@ -14,3 +14,7 @@ And I don't wanna miss a thing
 The sweetest dream would never do
 I'd still miss you baby
 And I don't wanna miss a thing
+
+Lying close to you, feeling your heart beating
+And I'm wondering what you're dreaming
+Wondering if it's me you're seeing
