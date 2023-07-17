@@ -32,3 +32,6 @@ The sweetest dream will never do
 I'd still miss you baby
 And I don't wanna miss a thing
 
+I don't wanna miss one smile
+And I don't wanna miss one kiss
+And I just wanna be with you
