@@ -26,3 +26,6 @@ Forever and ever
 I don't wanna close my eyes
 I don't wanna to fall asleep
 'Cause I'd miss you baby
+And I don't wanna miss a thing
+'Cause even when I dream of you (even when I dream)
+The sweetest dream will never do
