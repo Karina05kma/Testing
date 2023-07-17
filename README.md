@@ -22,3 +22,7 @@ Then I kiss your eyes
 And thank God we're together
 And I just wanna stay with you in this moment forever
 Forever and ever
+
+I don't wanna close my eyes
+I don't wanna to fall asleep
+'Cause I'd miss you baby
