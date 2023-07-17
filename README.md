@@ -48,3 +48,6 @@ Don't wanna fall asleep
 And I don't wanna miss a thing
 'Cause even when I dream of you (even when I dream)
 The sweetest dream would never do
+I'd still miss you baby
+And I don't wanna miss a thing
+
