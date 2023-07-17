@@ -45,3 +45,6 @@ Yeah, yeah, yeah, yeah, yeah
 Don't wanna close my eyes
 Don't wanna fall asleep
 'Cause I'd miss you baby
+And I don't wanna miss a thing
+'Cause even when I dream of you (even when I dream)
+The sweetest dream would never do
