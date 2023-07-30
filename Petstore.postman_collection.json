@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "38cbe277-961e-4271-8a84-1b60f8d3cb4b",
+		"name": "Petstore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23809623"
+	},
+	"item": [
+		{
+			"name": "Загрузить картинку",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.get(\"variable_key\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"additionalMetadata\": \"unknown\",\r\n  \"file\":\"https://oir.mobi/uploads/posts/2022-09/thumbs/1662446414_18-oir-mobi-p-malenkie-i-srednie-porodi-sobak-sobaki-21.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}9223372036854600000/uploadImage",
+					"host": [
+						"{{base_url}}9223372036854600000"
+					],
+					"path": [
+						"uploadImage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Новое животное",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 925,\r\n  \"category\": {\r\n    \"id\": 1,\r\n    \"name\": \"Polly\"\r\n  },\r\n  \"name\": \"doggie\",\r\n  \"photoUrls\": [\r\n    \"https://www.google.com/url?sa=i&url=https%3A%2F%2Foir.mobi%2Fzhivotnye%2Fsobaki%2F&psig=AOvVaw1CJE5cuKEFALJtcio5Z73b&ust=1690807917853000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDDkcC8toADFQAAAAAdAAAAABAD\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"Polly\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить животное",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 925,\r\n  \"category\": {\r\n    \"id\": 7,\r\n    \"name\": \"string\"\r\n  },\r\n  \"name\": \"doggie\",\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"sold\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Найти животное по статусу",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}findByStatus?status={{my_var3}}",
+					"host": [
+						"{{base_url}}findByStatus"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "{{my_var3}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Найти животное по ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}925",
+					"host": [
+						"{{base_url}}925"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить имя, статус",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}925?name=Poll&status=available",
+					"host": [
+						"{{base_url}}925"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Poll"
+						},
+						{
+							"key": "status",
+							"value": "available"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить животное",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}925",
+					"host": [
+						"{{base_url}}925"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
